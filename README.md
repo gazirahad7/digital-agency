@@ -1,4 +1,4 @@
-# GYM BARAN  
+# Digital Agency
 
 
 A brief description of what this project does and who it's for
@@ -10,6 +10,7 @@ A brief description of what this project does and who it's for
 ### GOAL
 
 - PSD TO NEXT JS
+- Task
 
 
 ### PLANNING
