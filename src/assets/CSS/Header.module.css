@@ -1,0 +1,145 @@
+/* ======== Style for the header ======== */
+/* .header {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+} */
+.header .container .backgroundImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-image: url("/src/assets/images/shape-1.png");
+}
+.nav {
+  float: right;
+  margin-top: -40px;
+}
+
+.nav ul li {
+  float: left;
+  margin-left: 30px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: transparent;
+}
+.nav ul li a:hover::after {
+  content: "";
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.nav ul li:last-child {
+  margin-top: -5px;
+  padding: 5px;
+}
+.nav ul li:last-child a {
+  font-size: 12px;
+  font-weight: bold;
+}
+/* ======== Style for the main section ======== */
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: center;
+  align-items: center;
+}
+.banner .bannerContent p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(37, 47, 62, 0.8);
+}
+
+.banner .bannerContent ul li {
+  word-spacing: 10px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.5;
+  margin: 0;
+  cursor: none;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+/* .banner .bannerContent ul li::before {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background: #99efb5;
+  border-radius: 5px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+} 
+
+.bannerContent button:hover {
+  transition: 1s ease-in-out;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+
+  background: #23a34d;
+}
+/* all media queries breakpoints for responsive  */
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .banner .headerBanner {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .banner .headerBanner {
+    display: none;
+  }
+  .banner .bannerContent {
+    width: 75%;
+  }
+  .nav ul li {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .nav {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .banner .bannerContent {
+    width: 90%;
+  }
+  .banner .bannerContent ul li {
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 360px) {
+  .banner .bannerContent ul li {
+    font-size: 35px;
+    font-weight: 700;
+  }
+}

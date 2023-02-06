@@ -1,0 +1,42 @@
+.testimonials {
+  gap: 150px;
+}
+
+.testimonialsBanner {
+  margin-left: -10%;
+}
+.testimonialsSlider {
+  gap: 30px;
+}
+.testimonialsContent {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+  width: 40%;
+  margin: 0 auto;
+}
+.testimonialsSliderAuthor {
+  align-items: flex-end;
+}
+.testimonialsSliderAuthorProfile {
+  gap: 20px;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .testimonialsBanner {
+    display: none;
+  }
+  .testimonialsContent {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialsContent {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+}

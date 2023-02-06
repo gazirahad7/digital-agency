@@ -1,0 +1,74 @@
+.ourNews {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ourNewsHead {
+  text-align: center;
+}
+.ourNewsCardContainer {
+  justify-content: space-around;
+}
+.ourNews .newsCard {
+  width: 400px;
+}
+.newsCard {
+  justify-content: space-around;
+  gap: 30px;
+}
+.newsCard .profileImg {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+/* .newsCard h4::after {
+  content: "";
+  display: block;
+  width: 90%;
+  border-radius: 5px;
+  height: 8px;
+  background-color: var(--border-bottom-color);
+  margin-top: -8px;
+} */
+.newsCard h4 a {
+  color: #13192d;
+  position: relative;
+  display: inline-block;
+  line-height: 2;
+  margin: 12px 0 20px 0;
+  z-index: 1;
+}
+.newsCard h4 a::before {
+  content: "";
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  z-index: -1;
+  background-color: var(--border-bottom-color);
+}
+
+/* .ourNews .serviceCardContent.colorOne a::before {
+  background-color: #edceff;
+} */
+.newsCard .serviceCardContent.color-one h4 a:before {
+  background: #edceff;
+}
+.ourNews .serviceCardContent.color-two h4 a:before {
+  background: #adf2c4;
+}
+.ourNews .serviceCardContent.color-three h4 a:before {
+  background: #ffe8bf;
+}
+.ourNews .serviceCardContent.color-four h4 a:before {
+  background: #ffdada;
+}
+@media (max-width: 768px) {
+  .ourNews {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+}

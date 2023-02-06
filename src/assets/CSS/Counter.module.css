@@ -1,0 +1,31 @@
+.counter {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.counter h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #2d2d43;
+  margin: 0;
+}
+.counter p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d2d43;
+  margin-top: -5px;
+}
+.counterSec hr {
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .counterItems {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 360px) {
+}

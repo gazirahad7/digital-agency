@@ -1,0 +1,70 @@
+.ourServices {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.ourServiceContent {
+  width: 52%;
+  margin: auto;
+}
+.ourServices .ourServiceImg {
+  margin-left: -20%;
+}
+.ourServices .serviceCard {
+  width: 300px;
+}
+.serviceCard {
+  padding: 20px 0px;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.serviceCard img {
+  width: 60px;
+  height: 60px;
+}
+.serviceCardContent h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00000a;
+}
+.serviceCardContent {
+}
+.seeAllServices {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00000a;
+  border-bottom: 2px solid #000;
+}
+@media (max-width: 1400px) {
+}
+.ourServices .ourServiceImg {
+  margin-left: -4%;
+}
+@media (max-width: 1200px) {
+  .ourServices .ourServiceImg {
+    margin-left: -15%;
+  }
+  .ourServiceContent {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  .ourServices .ourServiceImg {
+    display: none;
+  }
+  .ourServiceContent {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .OurServicesSubContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 576px) {
+}
